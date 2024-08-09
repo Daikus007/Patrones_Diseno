@@ -3,14 +3,22 @@ package Patron_1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Heroe implements Cloneable {
+public abstract class Heroe {
     private String nombre;
     private String clase;
     private int nivel;
     private Map<String, Integer> habilidades = new HashMap<>();
-    
+
     public Heroe(String clase) {
         this.clase = clase;
+    }
+
+    // Constructor de copia
+    public Heroe(Heroe otro) {
+        this.nombre = otro.nombre;
+        this.clase = otro.clase;
+        this.nivel = otro.nivel;
+        this.habilidades = new HashMap<>(otro.habilidades);
     }
 
     public void setNombre(String nombre) {
@@ -25,12 +33,9 @@ public class Heroe implements Cloneable {
         habilidades.put(habilidad, poder);
     }
 
-    public Heroe clonar() {
-        try {
-            return (Heroe) super.clone();
-        } catch (CloneNotSupportedException e) {
-            return null;
-        }
+    public Heroe copiar() {
+        return new Heroe(this) {
+        };
     }
 
     public void mostrarInfo() {
@@ -39,5 +44,4 @@ public class Heroe implements Cloneable {
         System.out.println("Clase: " + clase);
         System.out.println("Habilidades: " + habilidades);
     }
-
- }
+}
