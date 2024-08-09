@@ -13,7 +13,6 @@ public abstract class Heroe {
         this.clase = clase;
     }
 
-    // Constructor de copia
     public Heroe(Heroe otro) {
         this.nombre = otro.nombre;
         this.clase = otro.clase;
