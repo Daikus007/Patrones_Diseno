@@ -13,16 +13,16 @@ public abstract class Orden {
     }
 }
 
-// Método abstracto para tomar el pedido, debe ser implementado por las subclases
+
 protected abstract void tomarPedido();
 
-// Método abstracto para preparar el pedido, debe ser implementado por las subclases
+
 protected abstract void preparar();
 
-// Método abstracto para verificar la disponibilidad del pedido, debe ser implementado por las subclases
+
 protected abstract boolean verificarDisponibilidad();
 
-// Método abstracto para calcular el precio del pedido, debe ser implementado por las subclases
+
 protected abstract int calcularPrecio();
 
 }
