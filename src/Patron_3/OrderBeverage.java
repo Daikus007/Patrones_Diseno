@@ -21,7 +21,7 @@ public class OrderBeverage extends Orden {
 
     @Override
     protected int calcularPrecio() {
-        // Aquí se calcularía el precio de la bebida, por simplicidad se devuelve un valor fijo
+        // Aquí se calcularía el precio de la bebida, por simplicidad se devuelve uunn 5
         System.out.println("Calculando precio de bebida...");
         return 5;
     }
