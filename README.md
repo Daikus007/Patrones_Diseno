@@ -6,5 +6,4 @@ Cual patrón escogió
 Diagrama de clases
 Código del ejercicio.
 
-![image](https://github.com/user-attachments/assets/9ec7086d-8010-4524-bf31-288355f542f3)
 
