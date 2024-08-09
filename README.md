@@ -16,6 +16,9 @@ Después de la clonaciónn, el jugador puede modificar atributos del héroe, igu
 
 Este patrón asegura la eficiencia en el momento de la clonación, por que no se duplicarán los datos. Los objetos clonados son copias superficiales, y los datos compartidos entre clones pueden ser gestionados, así podemos evitar redundancia.
 
+![image](https://github.com/user-attachments/assets/b858fe49-ecff-4520-b73a-efe283422523)
+
+
 ## **Problema 2 – Aplicación de Mensajería**
 
 **Patrón de Diseño: Observer**
