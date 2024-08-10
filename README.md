@@ -62,7 +62,19 @@ El patrón Template Method es ideal cuando se necesita definir un algoritmo gene
 ![image](https://github.com/user-attachments/assets/50872cbc-cc2a-40cb-bd88-120324bdf89e)
 
 
+ ## **Problema 4 – Sistema de Gestión de tareas**
  
+ **Patrón de Diseño: Command**
+
+ la razon de usar el patron es "Patrón Command es una excelente elección ya que este patrón se adapta muy bien a los requisitos y ofrece los beneficios que se mencionan en el punto. 
+Beneficios del Patrón Command:
+- Desacopla el invocador de los objetos que realizan las acciones
+- Permite la extensión de nuevas operaciones sin modificar el código existente
+- Facilita el registro de acciones para realizar operaciones de reversión
+
+
+![image](https://github.com/user-attachments/assets/b83de9c2-0c30-4932-bb9d-12946feabc0b)
+
 
 
 
