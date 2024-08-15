@@ -75,6 +75,30 @@ Beneficios del Patrón Command:
 
 ![image](https://github.com/user-attachments/assets/b83de9c2-0c30-4932-bb9d-12946feabc0b)
 
+ ## **Problema 5 – Decoración Habitaciones de Hotel**
+ 
+ **Patrón de Diseño: Decorator**
+
+ El patrón Decorator es ideal para escenarios donde necesitas agregar funcionalidades adicionales a un objeto de manera dinámica, sin alterar su estructura básica. Este patrón permite envolver objetos con otras clases, añadiendo nuevas responsabilidades de forma flexible y extensible, lo que es perfecto para el caso de las habitaciones de hotel que requieren personalización según las preferencias de los huéspedes.
+
+ **Justificación:**
+
+1.  **Agregar Funcionalidades Dinámicamente:**
+
+El patrón Decorator permite agregar servicios adicionales (como flores frescas o chocolate gourmet) a una habitación ya existente de manera dinámica, sin necesidad de modificar la clase base de la habitación.
+
+2. **Alternativa Flexible a la Subclase:**
+
+En lugar de crear una subclase para cada posible combinación de decoraciones, el patrón Decorator ofrece una solución flexible, permitiendo combinar distintas decoraciones y servicios a través de la composición de objetos.
+
+3. **Separación de Responsabilidades:**
+
+El código se vuelve más mantenible y legible, ya que cada Decorator maneja una responsabilidad específica (por ejemplo, agregar flores o vino), manteniendo la lógica central de la habitación independiente de las decoraciones adicionales. Esto facilita la gestión y actualización de los servicios disponibles.
+
+
+![image](https://github.com/user-attachments/assets/b61706d7-b00c-4945-8cdc-7acaa573baac)
+
+
 
 
 
