@@ -13,8 +13,8 @@ public class FloresFrescasDecorator extends HabitacionDecorator {
 
     @Override
     public double getCosto() {
-        return habitacionDecorada.getCosto() + 20.00;
+        return habitacionDecorada.getCosto() + 25;
 
     }
-    
+
 }
