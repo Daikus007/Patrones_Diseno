@@ -4,7 +4,7 @@ public class HabitacionBasica implements Habitacion {
 
     @Override
     public double getCosto() {
-        return 100;
+        return 150;
     }
 
     @Override
